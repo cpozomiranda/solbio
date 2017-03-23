@@ -18,7 +18,11 @@ a:hover, a:focus {
 	color: #6ea100;
 }
 
-.main-nav, 
+.main-nav {
+	 background-color: rgba(255, 255, 255, 0.9);
+	 border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
 .service-icon, 
 .progress-bar.progress-bar-primary, 
 .single-table.featured, 

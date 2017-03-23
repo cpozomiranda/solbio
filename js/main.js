@@ -15,13 +15,9 @@ jQuery(function($) {
 	});
 	
 	//Scroll Menu
-	$(window).on('scroll', function(){
-		if( $(window).scrollTop()>slideHeight ){
-			$('.main-nav').addClass('navbar-fixed-top');
-		} else {
-			$('.main-nav').removeClass('navbar-fixed-top');
-		}
-	});
+	$(document).ready(function(){
+      $('.main-nav').addClass('navbar-fixed-top');
+  });
 	
 	// Navigation Scroll
 	$(window).scroll(function(event) {
